@@ -1,0 +1,62 @@
+[
+  {
+    "job":"Swordman",
+    "classes":"First Class",
+    "bio":"Swordmen are honest and as stubborn as the strong waves of the ocean. With strong physical attacks, defense, and a sense of command, a Swordman can become a headstrong leader to others. Swordmen continuously train to gain more skill and strength. After reading King Tristan 3rd's official notice recruiting adventurers, Swordmen join with the hope of becoming ever stronger. Equipped with strong armor and weapons, the brave swordman joins the world of adventure."
+  },
+  {
+    "job":"Mage",
+    "classes":"First Class",
+    "bio":"Mages rely on their skills as their main source of damage, and such attacks are magically based and only take into account the target's Magical Defense, and not their Physical Defense. Furthermore, all of a Mage's spells are elemental, thus meaning the accurate use of the correct spell against the correct monsters is highly important."
+  },
+  {
+    "job":"Archer",
+    "classes":"First Class",
+    "bio":"Archers are experts at long-range combat with Bows and Arrows. Their range gives them several advantages, which includes: The ability to change the element of their weapon quickly by changing their arrow type. This makes Archers able to exploit elemental advantages easily. Accuracy and damage is increased by the same stat (DEX), allowing all attacks to connect and deal a lot of damage. Range enables archers to defeat stationary or slow-moving opponents that are stronger than they are without being hit."
+  },
+  {
+    "job":"Merchant",
+    "classes":"First Class",
+    "bio":"Always on the lookout for profit, Merchants are the economic experts of Ragnarok Online. Setting out to make a fortune, playing as a Merchant will allow the player to get the most out of every last zeny. Merchants are also handy with items, being able to carry far more than other classes thanks to their Enlarge Weight Limit and Pushcart abilities."
+  },
+  {
+    "job":"Thief",
+    "classes":"First Class",
+    "bio":"Waiting in the shadows, planning where they'll strike next, the mischievous Thieves are a force to reckon with. Swift and powerful, few can keep up with a Thief's attack speed and power, whether they're slashing their way in battle with a sharp dagger, or striking from afar with a bow. Striking them down isn't easy either, coupling their high flee with the ability to become invisible and poison their pursuers, Thieves have only magic to fear."
+  },
+  {
+    "job":"Acolyte",
+    "classes":"First Class",
+    "bio":"Acolytes live their lives serving the Catholic Church and following the religious teachings. They train to become selfless and devoted individuals, aiming to help all that they meet. While the main location for Acolytes, like other members, is the Church in Protera, it isn't uncommon to find Acolytes travelling with adventurers around the world, especially adventurers recruited by King Tristan III. The religious teachings forbid Acolytes and other members of the Church from using bladed weapons."
+  },
+  {
+    "job":"Knight",
+    "classes":"Second Class",
+    "bio":"The Knight class is the primary second job for the Swordman class. Being a hack and slash type of character, Knights are granted access to a new mastery that will open a new type of weapon to wield aside from the Swordman's swords. They are also allowed to acquire powerful AoE skills like the famed Bowling Bash and the spear exclusive skill, Brandish Spear."
+  },
+  {
+    "job":"Wizard",
+    "classes":"Second Class",
+    "bio":"Wizards are powerful offensive magic users. They rely on dangerous magic strikes as well as devastating Area of Effect spells to wreak havoc."
+  },
+  {
+    "job":"Hunter",
+    "classes":"Second Class",
+    "bio":"Hunters are skillful at indirect combat. Their increased ASPD with bows helps makes them superior to Archers in ranged combat. They are also able to lay mines and traps on the ground to hinder or catch mobs. These traps will cause various status effects (Sandman inflicts the status sleep, for example) or cause elemental damage (i.e. Blast Mine, Land Mine) to a target. Additionally, they have a powerful subcharacter, the Falcon. Falcons are highly effective at dealing consistent damage, as their damage ignores DEF. "
+  },
+  {
+    "job":"Blacksmith",
+    "classes":"Second Class",
+    "bio":"Easily the most powerful of all the 2nd classes, the Blacksmiths sport damage equal to that of the trans 2nd classes(except their own trans class of course). Their only weakness lies in the fact that they only have 1 multitarget AoE spell (Cart Revolution) that has knockback and limited range, making it hard to target with."
+  },
+  {
+    "job":"Assassin",
+    "classes":"Second Class",
+    "bio":"Assassins (and their transcended Assassin Cross) are able to equip a weapon in each hand and the exclusive users of Katar weapons. Assassins have a variety of damage dealing and poisoning skills. The Assassin are the only class who can walk slightly faster than any other class ingame as long as they leveled the proper skill (Thief's Improve Dodge). The Katar wielding Assassins also receive double the normal amount of critical hit rate. Therefore, whatever amount of critical rate Assassins have, it would always be doubled."
+  },
+  {
+    "job":"Priest",
+    "classes":"Second Class",
+    "bio":"Once Acolytes have undergone rigorous spiritual training and have served the Church and the community as a whole, they have the opportunity to be promoted within the ranks of the Church. If the Monk is said to train their body to fight evil and the Undead physically, the Priest does so with magic. As their spiritual journey brings them closer to God, they gain advanced skills in healing as well as new ways to assist their allies and harm their foes. They are able to resurrect fallen comrades, protect them from harm, and bless their weapons."
+  }
+]

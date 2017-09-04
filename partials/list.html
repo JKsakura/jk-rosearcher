@@ -1,0 +1,35 @@
+<div class="bgcover"></div>
+<section>
+	<div class="search">
+		<h1>Search Character</h1>
+		<input class="searchField" ng-model="query" placeholder="Search for characters" autofocus=""/>
+		<label class="formgroup">by: 
+			<select ng-model="characterOrder">
+				<option value="classes">Class</option>
+				<option value="job">Job</option>
+			</select>
+		</label>
+		<label class="formgroup">
+			<input type="radio" ng-model="direction" name="direction" checked />
+			Ascending
+		</label>
+		<label class="formgroup">
+			<input type="radio" ng-model="direction" name="direction" value="reverse" />
+			Descending
+		</label>
+	</div>
+	<ul class="characterlist">
+		<li ng-animate="'animate'" class="listcharacter" ng-repeat="item in characters | filter: query | orderBy: characterOrder:direction">
+			<a href="#/details/{{ characters.indexOf(item) }}">
+				<h2>{{ item.job }}</h2>
+				<img ng-src="images/{{ item.job }}.png" alt="Photo of {{ item.job }}">
+				<h4>{{ item.classes }}</h4>
+			</a>
+		</li>
+	</ul>
+</section>
+<footer>
+	<div class="copyright">
+		<a href="http://www.jksakura.com">Copyright 2016 <span>J. K</span></a>
+	<div>
+</footer>

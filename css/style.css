@@ -1,0 +1,318 @@
+/* @override 
+  http://planetoftheweb.com/_/css/styles.css */
+
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900|Droid+Sans:400,700");
+/* Reset Styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+html {
+	background: url(../images/bg.jpg) no-repeat center 0 fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	font-family: Merriweather, serif;
+	font-size: 1rem;
+	line-height: 160%;
+	*zoom: 1;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+h1{
+	font-family: 'Bree Serif', serif;
+	color: #fff;
+	font-size: 2.2rem;
+	line-height: 100%;
+	margin-bottom: 10px;
+}
+h4 {
+	font-size: 1.2em;
+}
+/* Base Styles */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.bgcover {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1; 
+	background: rgba(0,0,0,0.6);
+}
+/* Search Styles */
+.search {
+	background: rgba(0, 70, 180, 0.8);
+	color: #fff;
+	width: 70%;
+	min-width: 320px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 20px;
+	padding: 20px 30px;
+	z-index: 20;
+}
+.search h1 {
+  color: #fff;
+}
+.searchField {
+	margin-bottom: 20px;
+}
+.search input {
+  font-family: 'Droid Sans', sans-serif;
+  width: 100%;
+  padding: 10px 0 10px 15px;
+  font-size: 1rem;
+  color: #333;
+  background: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 10px;
+  outline: 0;
+}
+.search .formgroup input {
+  border: 1px solid rgba(0,0,0,0.3);
+  display: inline;
+  width: auto;
+}
+.search label.formgroup {
+  display: inline;
+  width: auto;
+}
+
+.search select {
+  display: inline;
+  padding: 10px 0 10px 15px;
+  font-size: 1rem;
+  color: #475B62;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 10px;
+  outline: 0;
+}
+.characterlist {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 70%;
+	min-height: 50%;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	border-top: 1px dotted #CCC;
+}
+.characterlist ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.characterlist li {
+	width: 100%;
+	padding: 0 20px;
+	background: #EEE;
+	padding-bottom: 10px;
+	height: 135px;
+	overflow: hidden;
+  margin: 0;
+	border-bottom: 1px dotted #CCC;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+	opacity: 0.9;
+}
+.characterlist li:hover {
+	background: #FFFCE5;
+	overflow: visibl;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	opacity: 1;
+}
+.characterlist h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+	padding-top: 20px;
+	font-family: Arial, Helvetica, san-serif;
+	color: #BF5841;
+	border-bottom: 1px dotted #CCC;
+	margin-bottom: 10px;
+}
+.characterlist img {
+	float: left;
+	width: 80px;
+	margin-right: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.characterlist p {
+	padding-left: 90px;
+}
+.character img {
+  display: block;
+  float: left;
+  width: 60px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.character info {
+  display: block;
+  float: left;
+  padding-left: 120px !important;
+}
+.character:last-child {
+  border-bottom:none;
+}
+.characterinfo {
+  font-size: 1.1em;
+  line-height: 160%;
+  background: #EEE8D5;
+  color: #0F4150;
+  width: 90%;
+  min-width: 320px;
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  z-index: 20;
+}
+.characterinfo h1{
+  font-size: 1.8em;
+  margin-bottom: 0;
+  color: #145266;
+  line-height: 100%;
+}
+.characterinfo h3{
+  margin-top: 0;
+  color: #bd3613;
+  line-height: 110%;
+  margin-bottom: 5px;
+}
+.characterinfo img {
+  width: 40%;
+  max-width: 130px;
+  border-radius: 20px;
+}
+.link {
+    color: #2373FF;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 140%;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: #2373FF;
+    color: #fff;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn .btn-left {
+  float: left;
+}
+.btn .btn-right {
+  float: right;
+}
+.btn:hover {
+    background: #1755E5;
+    color: #fff;
+}
+/* footer and copyright */
+.copyright {
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+}
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: all 0.3s;
+}
+.copyright a:hover {
+    color: #999;
+}
+.copyright span {
+    color: #fff;
+    padding: 2px 2px 0 2px;
+    background: #ff3f3f;
+}
+.listcharacter.ng-enter.ng-enter-active,
+.listcharacter.ng-leave {
+  opacity: 1;
+  height: 80px;
+  overflow: hidden;
+}
+.listcharacter.ng-leave.ng-leave-active,
+.listcharacter.ng-enter {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+/* ---------- CSS Animation ---------- */
+@-webkit-keyframes myanim {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
+
+@-moz-keyframes myanim {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
+@-o-keyframes myanim {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
+@keyframes myanim {
+	0% { opacity: 0.3; }
+	100 { opacity: 1.0; }
+}

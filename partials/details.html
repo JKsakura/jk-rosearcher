@@ -1,0 +1,21 @@
+<div class="bgcover"></div>
+<section class="characterinfo">
+	<div class="character cf" ng-model="character">
+	<a href="#/details/{{ preItem }}" class="btn btn-left">&lt;</a>
+	<a href="#/details/{{ nextItem }}" class="btn btn-right">&gt;</a>
+		<h1>{{ characters[whichItem].job }}</h1>
+		<div class="info">
+			<h3>{{ characters[whichItem].classes }}</h3>
+			<img ng-src="images/{{ characters[whichItem].job }}.png" alt="Photo of {{ characters[whichItem].job }}">
+			<div class="bio">
+				{{ characters[whichItem].bio }}
+			</div>
+		</div>
+	</div>
+	<a href="#/list" class="link">&laquo; Back to Search</a>
+</section>
+<footer>
+	<div class="copyright">
+		<a href="http://www.jksakura.com">Copyright 2016 <span>J. K</span></a>
+	<div>
+</footer>
